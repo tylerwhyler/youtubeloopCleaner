@@ -1,0 +1,10 @@
+{
+    "name": "Youtubeloop html cleaner",
+    "description" : "Gets rid of ugly ads and crappy UI elements on youtubeloop.net",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "miniPage.html"
+    },
+    "permissions": ["activeTab", "declarativeContent"]
+  }
